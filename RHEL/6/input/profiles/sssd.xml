@@ -1,0 +1,17 @@
+<Profile id="sssd" extends="server" xmlns="http://checklists.nist.gov/xccdf/1.1" >
+<!-- Once the OVAL is put in/tested an extended ref to the server profile should be added -->
+<!--<Profile id="sssd" extends="server" xmlns="http://checklists.nist.gov/xccdf/1.1" > -->
+<title override="true">sssd</title>
+<description override="true">This profile is for SSSD servers.</description>
+<!-- <title>sssd</title>
+<description>This profile is for SSSD servers. </description> -->
+<select idref="service_sssd_enabled" selected="true" />
+<!-- <select idref="package_vssssdd_installed" selected="true"/>
+<select idref="sssd_log_transactions" selected="true"/>
+<select idref="sssd_present_banner" selected="true"/>
+<select idref="sssd_restrict_to_anon" selected="true"/>
+<select idref="sssd_limit_users" selected="true"/> 
+<select idref="sssd_disable_uploads" selected="true"/>
+<select idref="sssd_home_partition" selected="true"/>
+<select idref="sssd_configure_firewall" selected="true"/> -->
+</Profile>
