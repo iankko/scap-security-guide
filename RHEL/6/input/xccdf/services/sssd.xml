@@ -1,0 +1,18 @@
+<Group id="sssd">
+<title>Group for sssd</title>
+<description>
+Provides a set of daemons to manage access to remote directories and
+authentication mechanisms.
+</description>
+
+<Rule id="service_sssd_enabled" severity="medium">
+<title>Ensure sssd service is enabled </title>
+<description>Enabled the sssd service</description>
+<rationale>
+Provides a set of daemons to manage access to remote directories and
+authentication mechanisms. </rationale>
+<tested by="JL" on="20151111"/>
+<!-- <oval id="kernel_disable_entropy_contribution_for_solid_state_drives" /> -->
+</Rule>
+
+</Group>

@@ -131,6 +131,7 @@
       <xsl:apply-templates select="document('xccdf/services/smb.xml')" />
       <xsl:apply-templates select="document('xccdf/services/squid.xml')" />
       <xsl:apply-templates select="document('xccdf/services/snmp.xml')" />
+      <xsl:apply-templates select="document('xccdf/services/sssd.xml')" />
     </xsl:copy>
   </xsl:template>
 
